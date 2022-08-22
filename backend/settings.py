@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 
 from pathlib import Path
 import os
+import mimetypes
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -147,3 +148,6 @@ CORS_ORIGIN_WHITELIST = [
 ]
 
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'memo-test-backend.herokuapp.com']
+
+
+mimetypes.add_type("text/css", ".css", True)
