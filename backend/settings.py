@@ -143,7 +143,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 CORS_ORIGIN_WHITELIST = [
-    'http://localhost:3000',
+    'https://memo-test-frontend.herokuapp.com',
 ]
 
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'memo-test-backend.herokuapp.com']
